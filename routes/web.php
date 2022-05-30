@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PersonaController;
 use App\Http\Controllers\AlumnoController;
+use App\Http\Controllers\CarreraController;
+use App\Http\Controllers\DepartamentoController;
+use App\Http\Controllers\DispositivoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +29,6 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::resource('alumnos', AlumnoController::class);
+Route::resource('carreras', CarreraController::class);
+Route::resource('departamentos', DepartamentoController::class);
+Route::resource('dispositivos', DispositivoController::class);
