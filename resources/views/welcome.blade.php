@@ -32,6 +32,9 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="/departamentos">Departamentos</a></li>
             <li><a class="dropdown-item" href="/dispositivos">Dispositivos</a></li>
+            <li><a class="dropdown-item" href="/nodos">Nodos</a></li>
+            <li><a class="dropdown-item" href="/tipos">Tipos</a></li>
+            <li><a class="dropdown-item" href="/vlans">Vlan</a></li>
           </ul>
         </li>
         <li class="nav-item">
